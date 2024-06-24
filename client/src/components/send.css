@@ -1,0 +1,50 @@
+input {
+    
+    padding: 3px;
+    box-shadow: 3px 3px 5px grey;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    width: 300px;
+    
+  }
+
+  .infodiv{
+    margin-bottom: 20px;
+  }
+
+
+button {
+  background: #21ef2f;
+  border-radius: 10px;
+  border: 2px solid #21ef2f;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 10px;
+  font-weight: 800;
+  min-height: 10px;
+  outline: 0;
+  padding: 5px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+button:hover,
+.butto:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #21ef2f;
+}
+
+button:active {
+  opacity: .5;
+}
